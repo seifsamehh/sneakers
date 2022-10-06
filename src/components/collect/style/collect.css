@@ -1,0 +1,19 @@
+.collect svg {
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  .collect svg {
+    width: 100%;
+    height: 100%;
+  }
+}
+.collect h1 {
+  top: 50%;
+  left: 25%;
+}
+@media screen and (max-width: 768px) {
+  .collect h1 {
+    font-size: 3rem;
+    left: 4%;
+  }
+}/*# sourceMappingURL=collect.css.map */

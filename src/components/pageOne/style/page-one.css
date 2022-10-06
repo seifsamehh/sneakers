@@ -1,0 +1,25 @@
+.home {
+  background: linear-gradient(180deg, #8c8a8a 25%, transparent);
+}
+@media screen and (max-width: 768px) {
+  .home h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+}
+.home p {
+  letter-spacing: -10px;
+}
+@media screen and (max-width: 768px) {
+  .home p {
+    font-size: 2rem;
+    letter-spacing: 0;
+  }
+}
+.home p span {
+  color: #7a7a7a;
+}
+
+footer {
+  background-color: #e2ad25;
+}/*# sourceMappingURL=page-one.css.map */

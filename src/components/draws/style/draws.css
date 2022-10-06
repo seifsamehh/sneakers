@@ -1,0 +1,9 @@
+.draws .draws-gallery {
+  rotate: 10deg;
+}
+.draws .draws-gallery img {
+  width: 60%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=draws.css.map */

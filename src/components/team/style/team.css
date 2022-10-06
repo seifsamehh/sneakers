@@ -1,0 +1,16 @@
+@media screen and (max-width: 768px) {
+  .team .boxs {
+    flex-wrap: wrap;
+  }
+}
+.team .boxs .box-1 img,
+.team .boxs .box-2 img,
+.team .boxs .box-3 img {
+  width: 100%;
+  height: 100%;
+}
+.team .boxs .box-1 .three,
+.team .boxs .box-2 .three,
+.team .boxs .box-3 .three {
+  width: 90%;
+}/*# sourceMappingURL=team.css.map */

@@ -1,0 +1,62 @@
+@media screen and (max-width: 768px) {
+  .home-one {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 768px) {
+  .home-one .left-part {
+    position: relative;
+    z-index: 1;
+    background-color: #000;
+    margin-left: 0;
+    padding-left: 1rem;
+  }
+}
+.home-one .left-part p {
+  color: #8c8a8a;
+}
+.home-one .left-part .cssbuttons-io-button {
+  background: #000;
+  color: #fff;
+  padding: 0.35em;
+  padding-left: 1.2em;
+  font-size: 17px;
+  font-weight: 500;
+  border-radius: 0.9em;
+  border: none;
+  letter-spacing: 0.05em;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  height: 2.8em;
+  padding-right: 3.3em;
+  margin-top: 2rem;
+}
+.home-one .left-part .cssbuttons-io-button .icon {
+  background: #fff;
+  margin-left: 1em;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.2em;
+  width: 2.2em;
+  border-radius: 0.7em;
+  right: 0.3em;
+  transition: all 0.3s;
+}
+.home-one .left-part .cssbuttons-io-button:hover .icon {
+  width: calc(100% - 0.6em);
+}
+.home-one .left-part .cssbuttons-io-button .icon svg {
+  width: 1.1em;
+  transition: transform 0.3s;
+  color: #000;
+}
+.home-one .left-part .cssbuttons-io-button:hover .icon svg {
+  transform: translateX(0.1em);
+}
+.home-one .left-part .cssbuttons-io-button:active .icon {
+  transform: scale(0.95);
+}/*# sourceMappingURL=homeOne.css.map */

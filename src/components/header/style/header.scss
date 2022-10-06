@@ -1,0 +1,17 @@
+// start global variables
+$pageOne-color: #8c8a8a;
+$light: #fff;
+$dark: #000;
+// end global variables
+header {
+    background-color: $pageOne-color;
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .right {
+        h1 {
+            color: #bdbdbd;
+        }
+    }
+}

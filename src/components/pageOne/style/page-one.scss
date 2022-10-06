@@ -1,0 +1,27 @@
+// start global variables
+$pageOne-color: #8c8a8a;
+$light: #fff;
+$dark: #000;
+// end global variables
+.home {
+    background: linear-gradient(180deg,$pageOne-color 25%,transparent);
+    h1 {
+        @media screen and (max-width: 768px) {
+            font-size: 3rem;
+            text-align: center;
+        }
+    }
+    p {
+        letter-spacing: -10px;
+        @media screen and (max-width: 768px) {
+            font-size: 2rem;
+            letter-spacing: 0;
+        }
+        span {
+            color: #7a7a7a;
+        }
+    }
+}
+footer {
+    background-color: #e2ad25;
+}

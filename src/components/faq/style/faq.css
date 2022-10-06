@@ -1,0 +1,13 @@
+.faq {
+  background-color: #e2ad25;
+}
+@media screen and (max-width: 768px) {
+  .faq {
+    flex-direction: column-reverse;
+  }
+}
+@media screen and (max-width: 768px) {
+  .faq .right-part .content {
+    padding: 1rem;
+  }
+}/*# sourceMappingURL=faq.css.map */

@@ -1,0 +1,14 @@
+.scrollx {
+    .gallery,
+    .gallery-2 {
+        img {
+            width: 40%;
+        }
+    }
+    h1 {
+        @media screen and (max-width: 768px) {
+            font-size: 2rem;
+            left: 15px;
+        }
+    }
+}

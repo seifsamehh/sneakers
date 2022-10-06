@@ -1,0 +1,13 @@
+.faq {
+    background-color: #e2ad25;
+    @media screen and (max-width: 768px) {
+        flex-direction: column-reverse;
+    }
+    .right-part {
+        .content {
+            @media screen and (max-width: 768px) {
+                padding: 1rem;
+            }
+        }
+    }
+}

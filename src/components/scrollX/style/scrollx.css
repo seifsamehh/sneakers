@@ -1,0 +1,10 @@
+.scrollx .gallery img,
+.scrollx .gallery-2 img {
+  width: 40%;
+}
+@media screen and (max-width: 768px) {
+  .scrollx h1 {
+    font-size: 2rem;
+    left: 15px;
+  }
+}/*# sourceMappingURL=scrollx.css.map */
